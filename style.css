@@ -313,7 +313,7 @@ pre{
         
     }
     figcaption{
-        width: 20vh;
+        width: 25vh;
         background:white ;
         padding: 20px;
         border-radius: 4px;
@@ -379,4 +379,27 @@ sub{
     font-size: 10px;
     color: #d95c03;
     font-style: oblique;
+}
+i{
+    cursor: pointer;
+}
+.bxl-facebook-circle:hover{
+    color: royalblue;
+    transition: color .4s ease-in-out;
+    -webkit-transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -ms-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
+}
+.bxl-twitter:hover{
+    color: #05e2ff;
+    transition: color .4s ease-in-out;
+}
+.bxl-youtube:hover{
+    color: red;
+    transition: color .4s ease-in-out;
+}
+.bx-up-arrow-alt{
+    font-size: 12px;
+    font-weight: 700;
 }
