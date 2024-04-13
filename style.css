@@ -344,10 +344,10 @@ pre{
         background: #333;
         padding: 15px;
         border-radius:4px;
-    position: absolute;
-top: 290px;
-left: 50px;
-min-width: 50%;  
+         position: absolute;
+        top: 290px;
+        left: 50px;
+        min-width: 50%;  
       }
 }
 .drop-down{
@@ -402,4 +402,12 @@ i{
 .bx-up-arrow-alt{
     font-size: 12px;
     font-weight: 700;
+}
+.post{
+    background-image: linear-gradient(rgba(2, 230, 154, 0.219),rgba(0, 0, 0, 0.75),rgba(255, 255, 255, 0.85)), url(images/images\ \(25\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
 }
