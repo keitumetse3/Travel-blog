@@ -216,18 +216,16 @@ img{
     -o-transition: 2s ease-in-out ;
 }
 img:hover{
-    transform: scale(1.25);
-    -webkit-transform: scale(1.25);
-    -moz-transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    -o-transform: scale(1.25);
+    transform: scale(1.1);
     transition: 4s ease-in-out initial;
 }
 #dm-2{
   
     margin: 0;
     background: #33333342;
-    padding: 20px;
+    padding: 8px;
+    height: 50%;
+    width: 50%;
     
 }
 .logo{
@@ -243,8 +241,9 @@ span{
 }
 .pics-dm{
     box-sizing: border-box;
-    border: 2px solid rgba(96, 96, 96, 0.463);
+    border: .9px solid rgba(96, 96, 96, 0.111);
     background: #c9c9c986;
+    width: 100%;
 }
 figcaption{
     width: 80vh;
@@ -313,7 +312,7 @@ pre{
         
     }
     figcaption{
-        width: 25vh;
+        width: 30vh;
         background:white ;
         padding: 20px;
         border-radius: 4px;
@@ -323,16 +322,16 @@ pre{
         display:block;
         margin-right: 6rem;
         justify-content: center;
-        padding: 10px;
+        padding: 4px;
         background: #333;
         text-align: center;
         font-size: 1.6rem;
     }
     .dropdown-content{
         display: none;
-        margin: 30px;
-        padding: 40px;
-        width: 50vw;
+        margin: 35px 30px 70px;
+        padding: 20px 0 20px 100px;
+        width: 30vw;
         position: absolute;
         background: var(--bgcolor);
         box-shadow: 2px 2px 4px var(--txtcolor);
@@ -345,7 +344,7 @@ pre{
         padding: 15px;
         border-radius:4px;
          position: absolute;
-        top: 290px;
+        top: 250px;
         left: 50px;
         min-width: 50%;  
       }
@@ -357,7 +356,7 @@ pre{
     
 }
 fieldset{
-    border: 1px dotted #333;
+    border: 1px dotted #3333334b;
 }
 i{
     font-style: italic;
@@ -404,10 +403,31 @@ i{
     font-weight: 700;
 }
 .post{
-    background-image: linear-gradient(rgba(2, 230, 154, 0.219),rgba(0, 0, 0, 0.75),rgba(255, 255, 255, 0.85)), url(images/images\ \(25\).jpeg);
+    background-image: linear-gradient(rgba(2, 230, 154, 0.219),rgba(0, 0, 0, 0.75),rgba(255, 255, 255, 0.85)), url(images/IMG-20240415-WA0005.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     border-radius: 10px;
+}
+
+textarea{
+    padding: 10px;
+    border: #a44500 solid 1px;
+    border-radius: 4px;
+  
+}
+.pg-f{
+background-image: linear-gradient(rgba(139, 86, 86, 0.359),rgba(255, 255, 255, 0.439)), url(images/icons8-fix-100.png);
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#none{
+    background: rgba(151, 105, 105, 0.482);
+    border: red solid 1px;
+    padding: 20px;
+    margin: 0;
 }
