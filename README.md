@@ -1,1 +1,3 @@
-Create a folder name images then insert the images 
+Results:
+
+https://peppy-taffy-fd95e7.netlify.app/
